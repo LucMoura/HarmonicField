@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "HarmonicField"
+name = "harmonic_field"
 version = "0.1.0"

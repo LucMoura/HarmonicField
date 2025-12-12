@@ -1,6 +1,6 @@
 [package]
 
-name = "HarmonicField"
+name = "harmonic_field"
 version = "0.1.0"
 edition = "2021"
 
