@@ -1,1 +1,0 @@
-/home/lucas-moura/Docker-Estudos/HarmonicField/target/debug/HarmonicField: /home/lucas-moura/Docker-Estudos/HarmonicField/src/chord.rs /home/lucas-moura/Docker-Estudos/HarmonicField/src/harmonic_field.rs /home/lucas-moura/Docker-Estudos/HarmonicField/src/main.rs /home/lucas-moura/Docker-Estudos/HarmonicField/src/note.rs /home/lucas-moura/Docker-Estudos/HarmonicField/src/scale.rs
