@@ -12,7 +12,7 @@ fn read_input(prompt: &str)-> String{
     println!("{}", prompt);
     let _ = stdout().flush();
 
-    leu mut s = String::new();
+    let mut s = String::new();
     stdin().read_line(&mut s).expect("Erro ao ler entrada");
 
     s.trim().to_string()
@@ -51,7 +51,7 @@ fn main(){
      let note_input = read_input("Digite a tonalidade (ex: C, D, F#, G#, A): ");
      let note = match parse_note(&note_input){
         Some(n) => n,
-        None => {
+        none => {
             println!("Nota invalida: {}", note_input);
             return;
         }
@@ -60,7 +60,7 @@ fn main(){
      let scale_input = read_input("Digite o tipo de escala (major / minor): ");
      let scale_type = match parse_scale(&scale_input){
         Some(s) => s,
-        None => {
+        none => {
             println!("Tipo de escala inválido: {}", scale_input);
             return;
         }

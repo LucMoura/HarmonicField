@@ -1,5 +1,6 @@
 use crate::note::Note;
 
+#[derive(Debug)]
 pub enum ScaleType {
     Major,
     MinorNatural,
